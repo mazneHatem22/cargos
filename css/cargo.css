@@ -1,0 +1,931 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* loading page*/
+.loading-page {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: #0e334f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loading-spinner img {
+    width: 400px;
+    height: 200px;
+}
+
+.work {
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.us {
+    background-color: white;
+    color: rgb(6, 6, 59);
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 600;
+    border: 2px solid white;
+}
+
+.us:hover {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+.work:hover {
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+.home {
+    color: #009393 !important;
+    font-weight: bold;
+}
+
+.home::before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background-color: #009393;
+    transform: translate(15px, 30px);
+    width: 10px;
+    height: 10px;
+}
+
+.about {
+    color: white;
+    font-weight: bold;
+}
+
+.about:hover {
+    color: #009393;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background-color: transparent;
+    transition: all ease 0.1s;
+}
+
+.back {
+    background-color: #020345cc;
+
+}
+
+.big-cover {
+    background-image: url(../img/Property\ 1=Hero\ Section1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.big-cover2 {
+    background-image: url(../img/Property\ 1=Hero\ Section2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.big-cover3 {
+    background-image: url(../img/Property\ 1=Hero\ Section3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.big-cover4 {
+    background-image: url(../img/hero/Slide1/Slide\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.one-slider,
+.tow-slider,
+.three-slider,
+.four-slider {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+.hot {
+    font-size: 50px;
+}
+
+.hot,
+.our {
+    color: white;
+    font-weight: bold;
+}
+
+.our p {
+    font-size: larger;
+}
+
+.num {
+    color: #009393;
+    font-weight: bold;
+}
+
+.touch {
+    width: 270px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.touch:hover {
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+.about-us h5 {
+    color: rgba(63, 62, 62, 0.527);
+}
+
+.who {
+    color: #0e334f;
+}
+
+.who p {
+    font-size: 20px;
+}
+
+.join {
+    background-color: #0e334f;
+    color: white;
+    width: 150px;
+    font-weight: bold;
+}
+
+.join:hover {
+    background-color: white;
+    color: #0e334f;
+    border-color: black;
+}
+
+.cont {
+    color: #0e334f;
+    background-color: white;
+    border-color: black;
+    width: 150px;
+    font-weight: bold;
+}
+
+.cont:hover {
+    color: white;
+    background-color: #0e334f;
+}
+
+.group-photo1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.photo1 {
+    background-image: url(../img/Who-is-Cargo/Frame\ 507.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.photo2 {
+    background-image: url(../img/Who-is-Cargo/Frame\ 504.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.photo3 {
+    background-image: url(../img/Who-is-Cargo/Frame\ 506.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.simply {
+    background-image: url(../img/Why\ Cargo\ _.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+}
+
+.choose {
+    color: white;
+    font-weight: bold;
+    transform: translateY(80px);
+}
+
+.text-looking {
+    color: #0e334f;
+    font-weight: bold;
+}
+
+.groub-learn1,
+.groub-learn2,
+.groub-learn3 {
+    box-shadow: 0px 0px 15px 3px #0000002b;
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.png {
+    width: 100px;
+}
+
+.text-color {
+    color: #0e334f;
+}
+
+.photo-easy {
+    background-image: url(../img/Steps\ tp\ join\ Us.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    color: white;
+}
+
+.text-easy {
+    margin-top: 100px;
+}
+
+.us-now {
+    width: 300px;
+}
+
+.photo-haul {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    margin-top: 2px;
+}
+
+.text-haul {
+    color: #0e334f;
+    margin-right: 30px;
+}
+
+.text-haul h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text-haul ul li {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.text-team {
+    color: #0e334f;
+}
+
+.panar {
+    background-color: #ccc;
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    z-index: 999;
+}
+
+.photo-man {
+    position: relative;
+    max-width: 100px;
+    margin: auto;
+    transform: translateY(-50px);
+    z-index: 999;
+}
+
+.quote {
+    max-width: 50px;
+}
+
+.team-groub {
+    transform: translateY(-40px);
+}
+
+.panar:hover {
+    background-color: #0e334f;
+}
+
+.panar:hover p,
+.panar:hover h5 {
+    color: #FFF;
+}
+
+.panar:hover img.quote {
+    filter: invert(1) brightness(2.5);
+
+}
+
+.text-teams {
+    color: #0e334f;
+}
+
+.invest a {
+    text-decoration: none;
+    color: #0e334f;
+}
+
+.atm,
+.per-photo,
+.honset-photo {
+    width: 40px;
+}
+
+.hotshots h5,
+.hotshots p {
+    color: white;
+}
+
+.kings h6 {
+    color: white;
+}
+
+.kings h1 {
+    font-size: 70px;
+}
+
+.per h5,
+.per p {
+    color: white;
+    font-weight: bold;
+}
+
+.per span {
+    color: #009393;
+}
+
+.honset h6 {
+    color: white;
+    font-weight: bold;
+}
+
+.part-text {
+    color: #0e334f;
+}
+
+.map-photo {
+    background-image: url(../img/How\ we\ operate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    color: white;
+}
+
+.map-text h1 {
+    font-size: 40px;
+
+}
+
+.loc-text {
+    font-size: 17px;
+}
+
+.giving {
+    color: #0e334f;
+}
+
+.giving h1 {
+    font-weight: 700;
+}
+
+.hart-photo {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.program {
+    background-image: url(../img/our_program.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 520px;
+    background-position: center;
+    color: white;
+}
+
+.loyalty-text {
+    margin-top: 150px;
+
+}
+
+.first-slider .owl-dots {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+}
+
+.first-slider .owl-dots .owl-dot.active span {
+    background-color: #0e334f;
+    width: 15px;
+    height: 15px;
+
+}
+
+.accordion-button {
+    background-color: #ccc;
+    color: #0e334f;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 1px;
+}
+
+.accordion-body {
+    background-color: #ccc;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: #ccc;
+    box-shadow: none;
+}
+
+.software {
+    background-image: url(../img/Our\ Software.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 550px;
+}
+
+.app-text {
+    margin-top: 150px;
+    font-size: 17px;
+}
+
+.play {
+    width: 200px;
+}
+
+.business-text {
+    color: #0e334f;
+    /* margin-top: 100px; */
+}
+
+.business-text h1 {
+    font-weight: bold;
+}
+
+.form-control {
+    height: 60px;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #d3d1d12a;
+    box-shadow: none;
+}
+
+.have {
+    display: flex;
+    gap: 15px;
+}
+
+.truck h6,
+.trailer h6 {
+    color: #0e334f;
+    font-weight: 600;
+}
+
+.form-check-input:checked {
+    background-color: #0e334f;
+    border-color: #0e334f;
+    box-shadow: none;
+}
+
+.yes {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.trailer-btn button {
+    background-color: #0e334f;
+    width: 100%;
+    font-weight: bold;
+}
+
+.up {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    color: #0e334f;
+    padding: 10px;
+    border-radius: 50%;
+    display: none;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.newsletter {
+    background-image: url(../img/Newsletter/Newsletter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+    border-radius: 5px;
+    padding-bottom: 40px;
+    transform: translateY(110px);
+}
+
+.mail {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.input-group button {
+    background-color: #2a2eff;
+    color: white;
+    border: none;
+    font-size: 12px;
+}
+
+.subscribe {
+    height: 100%;
+}
+
+.footer {
+    background-color: rgba(17, 15, 40, 1);
+    color: white;
+}
+
+.logo-group,
+.who-text,
+.invest-group,
+.joinus-group,
+.down-group {
+    margin-top: 150px;
+}
+
+.logo2,
+.logo3 {
+    width: 200px;
+}
+
+.who-text2 a,
+.invest-text2 a,
+.joinus-text2 a,
+.down-text2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.facebook,
+.linkedin,
+.youtube,
+.twitter,
+.instagram,
+.google {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook a,
+.linkedin a,
+.youtube a,
+.twitter a,
+.instagram a,
+.google a {
+    color: white;
+}
+
+.facebook {
+    background-color: #0e334f;
+}
+
+.twitter {
+    background-color: #009393;
+}
+
+.youtube {
+    background-color: red;
+}
+
+.instagram {
+    background-color: rgb(209, 49, 102);
+}
+
+.linkedin {
+    background-color: #2867b2;
+}
+
+.google {
+    background-color: rgb(170, 170, 22);
+}
+
+.hart-red {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hart-red h6 {
+    font-size: 12px;
+}
+
+.about-group {
+    color: #009393 !important;
+    font-weight: bold;
+}
+
+.about-group::before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background-color: #009393;
+    transform: translate(27px, 30px);
+    width: 10px;
+    height: 10px;
+}
+
+.car-about {
+    background-image: url(../img/UpBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 430px;
+    color: white;
+    display: flex;
+    align-items: end;
+}
+
+.about-text {
+    margin-bottom: 60px;
+}
+
+.about-text h1 {
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+
+.about-text h6 {
+    font-size: 20px;
+}
+
+.llc-text {
+    color: #0e334f;
+}
+
+.llc-text h3 {
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.llc-text h5 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+.llc-text p {
+    font-size: 20px;
+}
+
+.llc-text h6 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #009393;
+}
+
+.logo-group-about,
+.who-text-about,
+.invest-group-about,
+.joinus-group-about,
+.down-group-about {
+    margin-top: 50px;
+}
+
+.aboout-group {
+    color: #009393 !important;
+    font-weight: bold;
+}
+
+.aboout-group::before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background-color: #009393;
+    transform: translate(37px, 30px);
+    width: 10px;
+    height: 10px;
+}
+
+.accountant-text {
+    color: #0e334f;
+}
+
+.accountant-text h2 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.accountant-text p {
+    font-size: 19px;
+}
+
+.accountant-p ul li {
+    list-style: none;
+    font-size: 19px;
+}
+
+.ready h2 {
+    font-weight: bold;
+    font-size: 32px;
+
+}
+
+
+
+::-webkit-file-upload-button {
+    display: none;
+}
+
+::file-selector-button {
+    display: none;
+}
+
+.smal-input-1 .larg-input {
+    margin-right: 10px;
+}
+
+.smal-input-1 {
+    width: calc(100% - 10px);
+}
+
+.file .radio-input h4 {
+    color: #0e334f;
+    font-weight: 500;
+}
+
+.file span.btn {
+    border: 3px solid #0e334f;
+    width: 88%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    height: 50px;
+    position: relative;
+}
+
+.file span.btn i {
+    color: #0e334f;
+}
+
+.mycv {
+    color: #0e334f;
+    margin-top: 13px;
+    transform: translateX(-45px);
+    font-weight: 700;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.file span.icon-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.file span.btn input {
+    width: 90%;
+}
+
+.salary-text h3 {
+    color: #0e334f;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.question-text h4 {
+    color: #0e334f;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.page-group .nav-tabs .nav-item.show .nav-link,
+.page-group .nav-tabs .nav-link.active {
+    color: #009393;
+    background-color: var(--bs-nav-tabs-link-active-bg);
+    border-color: var(--bs-nav-tabs-link-active-border-color);
+    border: none;
+    border-bottom: 2px solid #009393;
+}
+
+.page-group .nav-link {
+    color: #88889c;
+}
+
+.page-group .nav-link:focus,
+.page-group .nav-link:hover {
+    color: #88889c;
+}
+
+.page-group .nav-tabs .nav-link:focus {
+    isolation: isolate;
+    box-shadow: none;
+}
+
+.taps-group {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.taps-text {
+    color: #0e334f;
+}
+
+.taps-text ul {
+    font-size: 18px;
+}
+
+.taps-text a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+    color: #009393;
+}
+
+.link-group a {
+    font-size: 17px;
+}
+
+
+
+.lease .nav-tabs .nav-item.show .nav-link,
+.lease .nav-tabs .nav-link.active {
+    color: #009393;
+    background-color: var(--bs-nav-tabs-link-active-bg);
+    border-color: var(--bs-nav-tabs-link-active-border-color);
+    border: 2px solid #009393;
+}
+
+.lease .nav-link {
+    color: #88889c;
+    border: 2px solid #88889c;
+    border-radius: 15px;
+    width: 95%;
+}
+
+.dispatch {
+    font-size: 23px;
+}
+.reach-text ul {
+    color: #0e334f;
+}
+.drivers-text2{
+    border-left: 4px solid #009393;
+    border-radius: 5px;
+}
+.drivers-text{
+    color: #0e334f;
+}
